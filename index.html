@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Comunicación entre componentes</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <div id="contenedor">
+        <componente-boton></componente-boton> <br><!--componente 1-->
+        <br>
+        <componente-mensaje ref="componenteMensaje"></componente-mensaje> <!-- componente 2 -->
+    </div>
+    <script src="evento.js"></script>
+</body>
+</html>
